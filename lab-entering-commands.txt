@@ -16,7 +16,7 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-Code  Desktop  Documents  Downloads  Movies  Music  Pictures  textfile.txt
+chrischavez csci127 csci135
 
 
 ==========
@@ -26,19 +26,19 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-Desktop/    Documents/  Downloads/
+Nothing happens
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-rdrgeerwtger yg erwy brg
+Nothing happens
 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
-
+ls: cannot access 'D': No such file or directory
 
 
 ==========
@@ -48,7 +48,7 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+ls: cannot access 'Documents': No such file or directory
 
 
 ==========
@@ -58,7 +58,7 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+ls: cannot access 'Documents': No such file or directory
 
 
 ==========
@@ -68,7 +68,7 @@ Copy and paste the first *two lines* of output below.
 
 What command was repeated?
 ----------
-
+ls -a Documents
 
 
 ==========
@@ -78,7 +78,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -l Documents
 
 
 ==========
@@ -88,7 +88,7 @@ $ ls /b<TAB><ENTER>
 
 What is the result of pressing tab?
 ----------
-
+Nothing
 
 
 ==========
@@ -98,20 +98,20 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: cannot access 'doesnotexist': No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
-
-
+-l
+-a
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
@@ -122,13 +122,13 @@ Copy and paste the output below.
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
-
+ls
 
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
-
+$ ls -l Documents<ENTER>
 
 
 ==========
@@ -138,8 +138,13 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
+ommand 'foo' not found, did you mean:
 
+  command 'goo' from deb goo (0.155+ds-1)
+  command 'fio' from deb fio (3.16-1)
+  command 'fop' from deb fop (1:2.4-2)
 
+Try: sudo apt install <deb name>
 
 ==========
 15.  Type:
@@ -148,8 +153,13 @@ Copy and paste the output below.
 
 Copy and paste the output below.
 ----------
+Command 'foo' not found, did you mean:
 
+  command 'fio' from deb fio (3.16-1)
+  command 'fop' from deb fop (1:2.4-2)
+  command 'goo' from deb goo (0.155+ds-1)
 
+Try: sudo apt install <deb name>
 
 ==========
 16.  In the following line....
@@ -158,3 +168,7 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+$ : prompt
+ls : command
+-a : flag
+Desktop : argument
