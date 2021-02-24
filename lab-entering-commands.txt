@@ -16,8 +16,9 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-chrischavez csci127 csci135
-
+Desktop    Pictures     csci135
+Documents  Videos       house
+Music      chrischavez  media-computation
 
 ==========
 2a. Type: 
@@ -29,10 +30,11 @@ What happens?  Describe it below.
 Nothing happens
 
 
+
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
-Nothing happens
+Desktop/   Documents/ 
 
 
 ==========
@@ -48,8 +50,7 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-ls: cannot access 'Documents': No such file or directory
-
+-rw-r--r-- 1 chrischavez776 chrischavez776 47104 Feb 23 18:18 Case_Document_7-1.doc
 
 ==========
 4.  Type:
@@ -58,8 +59,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-ls: cannot access 'Documents': No such file or directory
-
+.  Case_Document_7-1.doc  sample-text-file.txt
+.. Figure_7-4.pdf
 
 ==========
 5.  Type:
@@ -116,7 +117,7 @@ ls: cannot access 'doesnotexist': No such file or directory
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
-
+<TAB>
 
 
 ==========
